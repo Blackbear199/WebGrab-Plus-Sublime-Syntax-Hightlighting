@@ -1,0 +1,19 @@
+About	: WG++SiteIni.sublime-syntax
+Author	: Blackbear199
+Date	: 2023/01/23
+
+WG++SiteIni.sublime-syntax is a User Defined Language (UDL) file. This file can be imported into Sublime, to make Sublime highlight special WebGrab++ names.
+
+Howto:
+1. open Sublime
+2. install Package Control,see https://packagecontrol.io/installation
+   - Open the command palette
+     Win/Linux: ctrl+shift+p, Mac: cmd+shift+p
+   - Type Install Package Control, press enter
+3. install PackageDev
+   - Preferences-->Package Control
+   - from the menu select Package Control:Install Package
+   - in the searchbox type PackageDev
+   - select it from the list to install
+4. copy WG++SiteIni.sublime-syntax to sublime User folder,on windows 10 its C:\Users\[Username]\AppData\Roaming\Sublime Text\Packages\User
+5. open a webgrab site ini,the file should now be syntax highlighted
