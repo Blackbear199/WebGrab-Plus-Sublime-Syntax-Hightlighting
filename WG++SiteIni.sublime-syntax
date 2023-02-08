@@ -260,7 +260,7 @@ contexts:
         1: entity.name.operator.siteini
         2: entity.name.tag.siteini
 #more operator calculations
-    - match: '[\(\s*](not)?\s*(==|=|~~|~|>=|>|<=|<)?\s*'
+    - match: '[\(\s*](not\s*)?(==|=|~~|~|>=|>|<=|<)?[\s*\}]'
       captures:
         1: entity.name.tag.siteini
         2: entity.name.operator.siteini
