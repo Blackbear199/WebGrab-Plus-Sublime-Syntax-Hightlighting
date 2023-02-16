@@ -46,7 +46,7 @@ contexts:
         1: entity.name.type.siteini
         2: entity.name.function.siteini
 #modifier url
-    - match: '\{\s*(url)[\|\(]'
+    - match: '\{\s*(url)(?!=)'
       captures:
         1: entity.name.function.siteini
 #modifier after scrub
